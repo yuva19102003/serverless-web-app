@@ -1,0 +1,38 @@
+.
+├── BACKEND
+│   ├── backend
+│   │   ├── table.py
+│   │   └── zip
+│   │       └── table.zip
+│   ├── graph.sh
+│   ├── main.tf
+│   ├── modules
+│   │   ├── dynamodb
+│   │   │   ├── main.tf
+│   │   │   ├── output.tf
+│   │   │   └── variable.tf
+│   │   └── lambda
+│   │       ├── main.tf
+│   │       ├── output.tf
+│   │       └── variable.tf
+│   ├── output.tf
+│   ├── terraform-backend-infrastructure.png
+│   ├── terraform.tfstate
+│   └── terraform.tfstate.backup
+├── FRONTEND
+│   ├── graph.sh
+│   ├── main.tf
+│   ├── output.tf
+│   ├── terraform-frontend-infrastructure.png
+│   ├── terraform.tfstate
+│   ├── terraform.tfstate.backup
+│   └── website
+│       ├── img
+│       │   ├── bg1.gif
+│       │   └── bg.gif
+│       ├── index.html
+│       ├── main.js
+│       └── style.css
+└── infrastructure-tree.txt
+
+9 directories, 26 files
