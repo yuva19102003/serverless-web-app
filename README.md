@@ -1,7 +1,5 @@
 # SERVERLESS WEB APP
 
-# Serverless Web Application README
-
 ## Project Overview
 
 This serverless web application is meticulously crafted around a three-tier microservices architecture, seamlessly integrating various AWS services. The application boasts a feature-rich frontend, deployed onto S3 and gracefully delivered through CloudFront. The backend, a Python marvel employing Boto3 modules, resides comfortably within AWS Lambda. DynamoDB, the robust NoSQL database, stores and manages data with finesse, while the glue holding everything together is a well-designed REST API orchestrated via AWS API Gateway.
