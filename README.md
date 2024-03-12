@@ -1,1 +1,45 @@
 # SERVERLESS WEB APP
+
+# Serverless Web Application README
+
+## Project Overview
+
+This serverless web application is meticulously crafted around a three-tier microservices architecture, seamlessly integrating various AWS services. The application boasts a feature-rich frontend, deployed onto S3 and gracefully delivered through CloudFront. The backend, a Python marvel employing Boto3 modules, resides comfortably within AWS Lambda. DynamoDB, the robust NoSQL database, stores and manages data with finesse, while the glue holding everything together is a well-designed REST API orchestrated via AWS API Gateway.
+
+## Deployment Process
+
+1. **Frontend:**
+   - Crafted with HTML, CSS, and JavaScript.
+   - Deployed onto S3 and elegantly presented via CloudFront.
+
+2. **Backend:**
+   - Written in Python and powered by Boto3 modules.
+   - Finds its home on AWS Lambda, ensuring efficient and scalable execution.
+
+3. **DynamoDB:**
+   - The NoSQL database solution, providing flexibility and reliability.
+
+4. **API Gateway:**
+   - A robust REST API facilitating seamless communication between the frontend and backend.
+
+## Testing Procedures
+
+1. **Backend Local Testing:**
+   - Rigorous testing facilitated by AWS Lambda's test events ensures backend functionality is robust and reliable.
+
+2. **API Testing with Postman:**
+   - The API's functionality is meticulously validated using Postman, ensuring smooth and predictable interactions.
+
+3. **Local Frontend Testing:**
+   - The frontend is seamlessly connected to the API on localhost for thorough local testing, ensuring a flawless user experience.
+
+4. **CDN Testing:**
+   - Rigorous testing under CDN conditions guarantees global accessibility and optimal performance.
+
+## Additional Information
+
+- Ensure placeholder variables in Terraform files are replaced with actual values.
+- Delve into specific Terraform files for detailed configurations tailored to your needs.
+- For any further guidance, refer to the extensive documentation provided by AWS.
+
+Feel free to tailor and enrich this README to perfectly suit your application and development process.
