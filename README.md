@@ -56,13 +56,19 @@ This serverless web application is meticulously crafted around a three-tier micr
 1. **Frontend:**
    - Crafted with HTML, CSS, and JavaScript.
    - Deployed onto S3 and elegantly presented via CloudFront.
+   - s3 bucket
+   - <img src="">
+   - cloudfront
+   - <img src="">
 
 2. **Backend:**
    - Written in Python and powered by Boto3 modules.
    - Finds its home on AWS Lambda, ensuring efficient and scalable execution.
+   - <img src="https://github.com/yuva19102003/serverless-web-app/blob/master/screenshots/lambda.png">
 
 3. **DynamoDB:**
    - The NoSQL database solution, providing flexibility and reliability.
+   - <img src="https://github.com/yuva19102003/serverless-web-app/blob/master/screenshots/dynamodb.png">
 
 4. **API Gateway:**
    - A robust REST API facilitating seamless communication between the frontend and backend.
@@ -81,6 +87,7 @@ This serverless web application is meticulously crafted around a three-tier micr
 
 3. **Local Frontend Testing:**
    - The frontend is seamlessly connected to the API on localhost for thorough local testing, ensuring a flawless user experience.
+   - <img src="https://github.com/yuva19102003/serverless-web-app/blob/master/screenshots/frontend%20testing.png">
 
 4. **CDN Testing:**
    - Rigorous testing under CDN conditions guarantees global accessibility and optimal performance.
