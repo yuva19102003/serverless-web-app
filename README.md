@@ -4,6 +4,8 @@
 
 This serverless web application is meticulously crafted around a three-tier microservices architecture, seamlessly integrating various AWS services. The application boasts a feature-rich frontend, deployed onto S3 and gracefully delivered through CloudFront. The backend, a Python marvel employing Boto3 modules, resides comfortably within AWS Lambda. DynamoDB, the robust NoSQL database, stores and manages data with finesse, while the glue holding everything together is a well-designed REST API orchestrated via AWS API Gateway.
 
+<img src="https://github.com/yuva19102003/serverless-web-app/blob/master/screenshots/webpage.png">
+
 ## Infrastructure of the project
 
 ```
@@ -64,20 +66,25 @@ This serverless web application is meticulously crafted around a three-tier micr
 
 4. **API Gateway:**
    - A robust REST API facilitating seamless communication between the frontend and backend.
+   - <img src="https://github.com/yuva19102003/serverless-web-app/blob/master/screenshots/api-gateway.png">
 
 ## Testing Procedures
 
 1. **Backend Local Testing:**
    - Rigorous testing facilitated by AWS Lambda's test events ensures backend functionality is robust and reliable.
+   - <img src="https://github.com/yuva19102003/serverless-web-app/blob/master/screenshots/lambda-testing.png">
 
 2. **API Testing with Postman:**
    - The API's functionality is meticulously validated using Postman, ensuring smooth and predictable interactions.
+   - <img src="https://github.com/yuva19102003/serverless-web-app/blob/master/screenshots/postman-api-testing.png">
+   - <img src="https://github.com/yuva19102003/serverless-web-app/blob/master/screenshots/api-test-result.png">
 
 3. **Local Frontend Testing:**
    - The frontend is seamlessly connected to the API on localhost for thorough local testing, ensuring a flawless user experience.
 
 4. **CDN Testing:**
    - Rigorous testing under CDN conditions guarantees global accessibility and optimal performance.
+   - <img src="https://github.com/yuva19102003/serverless-web-app/blob/master/screenshots/cdn-testing.png">
 
 ## Additional Information
 
