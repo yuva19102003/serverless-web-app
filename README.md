@@ -57,9 +57,9 @@ This serverless web application is meticulously crafted around a three-tier micr
    - Crafted with HTML, CSS, and JavaScript.
    - Deployed onto S3 and elegantly presented via CloudFront.
    - s3 bucket
-   - <img src="">
+   - <img src="https://github.com/yuva19102003/serverless-web-app/blob/master/screenshots/s3.png">
    - cloudfront
-   - <img src="">
+   - <img src="https://github.com/yuva19102003/serverless-web-app/blob/master/screenshots/cloudfront.png">
 
 2. **Backend:**
    - Written in Python and powered by Boto3 modules.
