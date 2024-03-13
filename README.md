@@ -4,6 +4,51 @@
 
 This serverless web application is meticulously crafted around a three-tier microservices architecture, seamlessly integrating various AWS services. The application boasts a feature-rich frontend, deployed onto S3 and gracefully delivered through CloudFront. The backend, a Python marvel employing Boto3 modules, resides comfortably within AWS Lambda. DynamoDB, the robust NoSQL database, stores and manages data with finesse, while the glue holding everything together is a well-designed REST API orchestrated via AWS API Gateway.
 
+## Infrastructure of the project
+
+```
+.
+├── BACKEND
+│   ├── backend
+│   │   ├── table.py
+│   │   └── zip
+│   │       └── table.zip
+│   ├── graph.sh
+│   ├── main.tf
+│   ├── modules
+│   │   ├── dynamodb
+│   │   │   ├── main.tf
+│   │   │   ├── output.tf
+│   │   │   └── variable.tf
+│   │   └── lambda
+│   │       ├── main.tf
+│   │       ├── output.tf
+│   │       └── variable.tf
+│   ├── output.tf
+│   ├── terraform-backend-infrastructure.png
+│   ├── terraform.tfstate
+│   └── terraform.tfstate.backup
+├── FRONTEND
+│   ├── graph.sh
+│   ├── main.tf
+│   ├── output.tf
+│   ├── terraform-frontend-infrastructure.png
+│   ├── terraform.tfstate
+│   ├── terraform.tfstate.backup
+│   └── website
+│       ├── img
+│       │   ├── bg1.gif
+│       │   └── bg.gif
+│       ├── index.html
+│       ├── main.js
+│       └── style.css
+└── infrastructure-tree.txt
+
+9 directories, 26 files
+```
+
+
+
 ## Deployment Process
 
 1. **Frontend:**
