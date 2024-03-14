@@ -74,11 +74,11 @@
    - <img src="https://github.com/yuva19102003/serverless-web-app/blob/master/screenshots/lambda.png">
 
 3. **DynamoDB:**
-   - The NoSQL database solution, providing flexibility and reliability.
+   - The NoSQL database solution, provides flexibility and reliability.
    - <img src="https://github.com/yuva19102003/serverless-web-app/blob/master/screenshots/dynamodb.png">
 
 4. **API Gateway:**
-   - A robust REST API facilitating seamless communication between the frontend and backend.
+   - A robust REST API facilitates seamless front and backend communication.
    - <img src="https://github.com/yuva19102003/serverless-web-app/blob/master/screenshots/api-gateway.png">
 
 ## Testing Procedures
@@ -93,7 +93,7 @@
    - <img src="https://github.com/yuva19102003/serverless-web-app/blob/master/screenshots/api-test-result.png">
 
 3. **Local Frontend Testing:**
-   - The frontend is seamlessly connected to the API on localhost for thorough local testing, ensuring a flawless user experience.
+   - The front end is seamlessly connected to the API on localhost for thorough local testing, ensuring a flawless user experience.
    - <img src="https://github.com/yuva19102003/serverless-web-app/blob/master/screenshots/frontend%20testing.png">
 
 4. **CDN Testing:**
@@ -106,4 +106,4 @@
 - Delve into specific Terraform files for detailed configurations tailored to your needs.
 - For any further guidance, refer to the extensive documentation provided by AWS.
 
-Feel free to tailor and enrich this README to perfectly suit your application and development process.
+Feel free to tailor and enrich this README to suit your application and development process perfectly.
