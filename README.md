@@ -11,7 +11,7 @@
 
 <img src="https://github.com/yuva19102003/serverless-web-app/blob/master/flowchart.drawio.svg">
 
-## webpage
+## WEBPAGE
 
 <img src="https://github.com/yuva19102003/serverless-web-app/blob/master/screenshots/webpage.png">
 
