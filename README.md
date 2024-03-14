@@ -9,7 +9,7 @@
 
 ## Flowchart
 
-<img src="">
+<img src="https://github.com/yuva19102003/serverless-web-app/blob/master/flowchart.drawio.svg">
 
 <img src="https://github.com/yuva19102003/serverless-web-app/blob/master/screenshots/webpage.png">
 
@@ -65,7 +65,7 @@
    - Deployed onto S3 and elegantly presented via CloudFront.
    - s3 bucket
    - <img src="https://github.com/yuva19102003/serverless-web-app/blob/master/screenshots/s3.png">
-   - cloudfront
+   - CloudFront
    - <img src="https://github.com/yuva19102003/serverless-web-app/blob/master/screenshots/cloudfront.png">
 
 2. **Backend:**
