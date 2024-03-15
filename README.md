@@ -1,5 +1,5 @@
 # SERVERLESS WEB APP
-
+----
 ## Project Overview
 
  - This serverless web application is meticulously crafted around a three-tier microservices architecture, seamlessly integrating various AWS services.
@@ -15,6 +15,7 @@
 
 <img src="https://github.com/yuva19102003/serverless-web-app/blob/master/screenshots/webpage.png">
 
+----
 ## Infrastructure of the project
 
 ```
@@ -57,12 +58,12 @@
 
 9 directories, 26 files
 ```
-
+----
 
 
 ## Deployment Process
 
-1. **Frontend:**
+### 1. **Frontend:**
    - Crafted with HTML, CSS, and JavaScript.
    - Front end terraform infrastructure flowchart
    - <img src="https://github.com/yuva19102003/serverless-web-app/blob/master/FRONTEND/terraform-frontend-infrastructure.png">
@@ -71,41 +72,44 @@
    - <img src="https://github.com/yuva19102003/serverless-web-app/blob/master/screenshots/s3.png">
    - CloudFront
    - <img src="https://github.com/yuva19102003/serverless-web-app/blob/master/screenshots/cloudfront.png">
-
-3. **Backend:**
+ 
+### 2. **Backend:**
    - Written in Python and powered by Boto3 modules.
    - Back-end terraform infrastructure Flowchart
    - <img src="https://github.com/yuva19102003/serverless-web-app/blob/master/BACKEND/terraform-backend-infrastructure.png">
    - Finds its home on AWS Lambda, ensuring efficient and scalable execution.
    - <img src="https://github.com/yuva19102003/serverless-web-app/blob/master/screenshots/lambda.png">
 
-4. **DynamoDB:**
+### 3. **DynamoDB:**
    - The NoSQL database solution, provides flexibility and reliability.
    - <img src="https://github.com/yuva19102003/serverless-web-app/blob/master/screenshots/dynamodb.png">
 
-5. **API Gateway:**
+### 4. **API Gateway:**
    - A robust REST API facilitates seamless front and backend communication.
    - <img src="https://github.com/yuva19102003/serverless-web-app/blob/master/screenshots/api-gateway.png">
 
+----
+   
 ## Testing Procedures
 
-1. **Backend Local Testing:**
+### 1. **Backend Local Testing:**
    - Rigorous testing facilitated by AWS Lambda's test events ensures backend functionality is robust and reliable.
    - <img src="https://github.com/yuva19102003/serverless-web-app/blob/master/screenshots/lambda-testing.png">
 
-2. **API Testing with Postman:**
+### 2. **API Testing with Postman:**
    - The API's functionality is meticulously validated using Postman, ensuring smooth and predictable interactions.
    - <img src="https://github.com/yuva19102003/serverless-web-app/blob/master/screenshots/postman-api-testing.png">
    - <img src="https://github.com/yuva19102003/serverless-web-app/blob/master/screenshots/api-test-result.png">
 
-3. **Local Frontend Testing:**
+### 3. **Local Frontend Testing:**
    - The front end is seamlessly connected to the API on localhost for thorough local testing, ensuring a flawless user experience.
    - <img src="https://github.com/yuva19102003/serverless-web-app/blob/master/screenshots/frontend%20testing.png">
 
-4. **CDN Testing:**
+### 4. **CDN Testing:**
    - Rigorous testing under CDN conditions guarantees global accessibility and optimal performance.
    - <img src="https://github.com/yuva19102003/serverless-web-app/blob/master/screenshots/cdn-testing.png">
 
+----
 ## Additional Information
 
 - Ensure placeholder variables in Terraform files are replaced with actual values.
@@ -113,3 +117,4 @@
 - For any further guidance, refer to the extensive documentation provided by AWS.
 
 Feel free to tailor and enrich this README to suit your application and development process perfectly.
+----
