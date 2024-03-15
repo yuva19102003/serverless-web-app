@@ -64,22 +64,26 @@
 
 1. **Frontend:**
    - Crafted with HTML, CSS, and JavaScript.
+   - Front end terraform infrastructure flowchart
+   - <img src="">
    - Deployed onto S3 and elegantly presented via CloudFront.
    - s3 bucket
    - <img src="https://github.com/yuva19102003/serverless-web-app/blob/master/screenshots/s3.png">
    - CloudFront
    - <img src="https://github.com/yuva19102003/serverless-web-app/blob/master/screenshots/cloudfront.png">
 
-2. **Backend:**
+3. **Backend:**
    - Written in Python and powered by Boto3 modules.
+   - Back-end terraform infrastructure Flowchart
+   - <img src="">
    - Finds its home on AWS Lambda, ensuring efficient and scalable execution.
    - <img src="https://github.com/yuva19102003/serverless-web-app/blob/master/screenshots/lambda.png">
 
-3. **DynamoDB:**
+4. **DynamoDB:**
    - The NoSQL database solution, provides flexibility and reliability.
    - <img src="https://github.com/yuva19102003/serverless-web-app/blob/master/screenshots/dynamodb.png">
 
-4. **API Gateway:**
+5. **API Gateway:**
    - A robust REST API facilitates seamless front and backend communication.
    - <img src="https://github.com/yuva19102003/serverless-web-app/blob/master/screenshots/api-gateway.png">
 
