@@ -65,7 +65,7 @@
 1. **Frontend:**
    - Crafted with HTML, CSS, and JavaScript.
    - Front end terraform infrastructure flowchart
-   - <img src="">
+   - <img src="https://github.com/yuva19102003/serverless-web-app/blob/master/FRONTEND/terraform-frontend-infrastructure.png">
    - Deployed onto S3 and elegantly presented via CloudFront.
    - s3 bucket
    - <img src="https://github.com/yuva19102003/serverless-web-app/blob/master/screenshots/s3.png">
