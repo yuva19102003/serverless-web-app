@@ -75,7 +75,7 @@
 3. **Backend:**
    - Written in Python and powered by Boto3 modules.
    - Back-end terraform infrastructure Flowchart
-   - <img src="">
+   - <img src="https://github.com/yuva19102003/serverless-web-app/blob/master/BACKEND/terraform-backend-infrastructure.png">
    - Finds its home on AWS Lambda, ensuring efficient and scalable execution.
    - <img src="https://github.com/yuva19102003/serverless-web-app/blob/master/screenshots/lambda.png">
 
